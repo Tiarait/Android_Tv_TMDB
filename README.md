@@ -1,10 +1,14 @@
 ##### [Test work ] [Not finished]
 # Android Tv TMDB [[Youtube](https://youtu.be/lTzTNSlhPcU)]
 
+In [AppConstants.kt](https://github.com/Tiarait/Android_Tv_TMDB/blob/master/tv/src/main/java/online/noxilab/tmdb/AppConstants.kt) change API_TMDB on YOUR api key
 
 ### Implemented for educational purposes
  
     The Movie Database (TMDb) is a popular user editable database for movies and TV shows
+    
+
+
 ---
 ### Libraries used
 * leanback
