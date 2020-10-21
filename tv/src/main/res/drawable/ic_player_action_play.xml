@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:height="@dimen/video_icon_size"
+    android:width="@dimen/video_icon_size"
+    android:viewportWidth="24.0"
+    android:viewportHeight="24.0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/card_primary_text" android:pathData="M9.6824,7.1571C9.1524,7.1475 8.7867,7.5629 8.7867,8.2863l0,7.4266c0,1.0074 0.708,1.4173 1.5813,0.9168L16.8592,12.907c0.8736,-0.5011 0.8736,-1.3129 0,-1.8139L10.368,7.3705C10.1224,7.2296 9.8898,7.1608 9.6824,7.1571Z" />
+</vector>

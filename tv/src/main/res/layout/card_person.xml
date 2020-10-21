@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageBackground"
+            android:background="@drawable/background_avatar_border"
+            android:padding="4dp">
+            <ImageView
+                android:id="@+id/thumb"
+                android:src="@drawable/ic_person_circle"
+                android:layout_width="@dimen/person_card_width"
+                android:layout_height="@dimen/person_card_width"
+                />
+        </FrameLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/info_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:lines="1"
+            android:ellipsize="end"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/card_primary_text"
+            android:textSize="@dimen/lb_browse_header_text_size"/>
+    </LinearLayout>
+
+</LinearLayout>

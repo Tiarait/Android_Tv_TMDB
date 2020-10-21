@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TMDB</string>
+    <string name="browse_title"><![CDATA[Videos by Your Company]]></string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+
+    <string name="tmdb">TMDB</string>
+    <string name="implement_search">Implement your own in-app search.</string>
+    <string name="search_results">Search Results</string>
+
+    <string name="main_movie">Фильмы</string>
+    <string name="main_serial">Сериалы</string>
+    <string name="main_person">Люди</string>
+    <string name="main_settings">Настройки</string>
+
+    <string name="watch_trailer">Смотреть трейлер</string>
+
+    <string name="h">ч</string>
+    <string name="min">м</string>
+    <string name="budget">Бюджет</string>
+    <string name="revenue">Сборы</string>
+    <!--    5 million 460 thousand-->
+    <string name="mln">млн.</string>
+    <string name="thous">тис.</string>
+
+    <string name="status_ended">Завершился</string>
+    <string name="status_return">Продолжается</string>
+    <string name="status_in_production">В производстве</string>
+
+
+    <string name="now_playing">Сейчас смотрят</string>
+    <string name="airing_today">В эфире сегодня</string>
+    <string name="on_tv">По телевиденью</string>
+    <string name="upcoming">Ожидаемые</string>
+    <string name="popular">Популярные</string>
+    <string name="top_rated">Лучшие</string>
+</resources>

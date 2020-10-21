@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <item name="android:windowContentTransitions">true</item>
+<!--        <item name="browseTitleViewLayout">@layout/title_main</item>-->
+<!--        <item name="browseRowsMarginTop">@dimen/lb_browse_rows_margin_top</item>-->
+    </style>
+
+    <declare-styleable name="CircleProgressBar">
+        <attr name="min" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress" format="integer" />
+        <attr name="progressbarColor" format="color" />
+        <attr name="progressBarThickness" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,77 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/title_badge"
+        android:layout_width="wrap_content"
+        android:maxWidth="@dimen/lb_browse_title_icon_max_width"
+        android:adjustViewBounds="true"
+        android:layout_height="@dimen/lb_browse_title_icon_height"
+        android:layout_gravity="center_vertical|end"
+        android:src="@null"
+        android:visibility="gone"
+        style="?attr/browseTitleIconStyle"/>
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lb_browse_title_height"
+        android:layout_gravity="center_vertical|end"
+        style="?attr/browseTitleTextStyle"/>
+    <TextClock
+        android:transitionGroup="true"
+        android:transitionName="time"
+        android:id="@+id/textClock2"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/lb_browse_title_height"
+        android:layout_marginEnd="28dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:format12Hour="hh:mm"
+        android:format24Hour="hh:mm"
+        android:text="hh:mm"
+        android:layout_gravity="center_vertical|end"
+        style="?attr/browseTitleTextStyle" />
+    <ImageView
+        android:transitionGroup="true"
+        android:transitionName="time_border_sh"
+        android:alpha=".6"
+        app:tint="@color/black"
+        android:layout_marginTop="11dp"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/ic_tmdb_logo_wide"/>
+    <ImageView
+        android:id="@+id/time_border"
+        android:transitionGroup="true"
+        android:transitionName="time_border"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical|end"
+        android:src="@drawable/ic_tmdb_logo_wide"/>
+    <androidx.leanback.widget.SearchOrbView
+        android:transitionGroup="true"
+        android:transitionName="search"
+        android:id="@+id/title_orb"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:visibility="invisible" />
+    <androidx.leanback.widget.SearchOrbView
+        android:layout_marginStart="55dp"
+        android:transitionGroup="true"
+        android:transitionName="search"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:layout_gravity="center_vertical|start"
+         />
+
+</merge>

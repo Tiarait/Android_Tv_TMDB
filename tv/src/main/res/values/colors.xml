@@ -1,0 +1,31 @@
+<resources>
+    <color name="default_background">#37474F</color>
+    <color name="default_background_tr">#9937474F</color>
+    <color name="default_background_dark">#222e33</color>
+    <color name="tr">#00000000</color>
+    <color name="tr_dark">#50000000</color>
+    <color name="tr_darken">#99000000</color>
+    <color name="black">#000000</color>
+    <color name="default_accent">#01D277</color>
+    <color name="default_accent_sup">#f7941d</color>
+
+    <color name="card_primary_text">#EEEEEE</color>
+    <color name="card_secondary_text">#99EEEEEE</color>
+
+    <color name="rate_middle">#d2d531</color>
+
+    <color name="seekbar_bg">#90222e33</color>
+    <color name="seekbar_primary">#526e7b</color>
+    <color name="seekbar_secondary">#8037474F</color>
+
+    <color name="icon_color">#01D277</color>
+    <color name="white_tr">#60FFFFFF</color>
+
+
+    <color name="background_gradient_start">#FFFFFF</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+
+    <color name="search_opaque">#01D277</color>
+    <color name="search_bright_color">#01D277</color>
+    <color name="search_color">#EEEEEE</color>
+</resources>

@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion = '28.0.3'
+    defaultConfig {
+        applicationId "online.noxilab.tmdb"
+        minSdkVersion 21
+        targetSdkVersion 28
+
+        def versionMajor = 1
+        def versionMinor = 0
+        def versionPatch = 1
+        versionCode versionMajor * 100000 + versionMinor * 1000 + versionPatch
+        versionName "${versionMajor}.${versionMinor}.${versionPatch}"
+
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        dexOptions {
+            javaMaxHeapSize "4g"
+        }
+        compileOptions {
+            sourceCompatibility = 1.8
+            targetCompatibility = 1.8
+        }
+    }
+    buildTypes {
+        release {
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            shrinkResources false
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.leanback:leanback:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+
+    implementation 'info.movito:themoviedbapi:1.10'
+//    implementation 'com.omertron:themoviedbapi:4.0'
+//    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.3'
+
+    implementation 'com.github.HaarigerHarald:android-youtubeExtractor:master-SNAPSHOT'
+}

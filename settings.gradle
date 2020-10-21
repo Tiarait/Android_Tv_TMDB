@@ -1,0 +1,2 @@
+include ':tv'
+rootProject.name='TMDB'

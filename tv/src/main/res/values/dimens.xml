@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lb_browse_padding_start_low">51.5dp</dimen><!--  -4.55  -->
+    <dimen name="lb_browse_header_text_size">20dp</dimen>
+    <dimen name="lb_action_text_size">16dp</dimen>
+    <dimen name="lb_details_v2_logo_margin_top">59dp</dimen>
+    <dimen name="lb_details_v2_logo_margin_top_full">171dp</dimen>
+    <dimen name="lb_details_v2_logo_margin_start">47dp</dimen>
+    <dimen name="lb_details_v2_logo_max_height">226dp</dimen>
+    <dimen name="lb_details_v2_card_height">340dp</dimen>
+    <dimen name="lb_details_v2_title_margin_start">221dp</dimen>
+    <dimen name="lb_details_v2_blank_height">160dp</dimen>
+    <dimen name="lb_details_v2_logo_max_width">150dp</dimen>
+    <dimen name="person_card_width">132dp</dimen>
+
+
+    <dimen name="action_rounded">5dp</dimen>
+    <dimen name="details_rating_size">62dp</dimen>
+    <dimen name="details_rating_corner">5dp</dimen>
+    <dimen name="details_rating_text_proc">12dp</dimen>
+    <dimen name="details_rating_text_corel_top">-2dp</dimen>
+
+
+    <dimen name="video_icon_size">160dp</dimen>
+    <dimen name="video_text_size">80dp</dimen>
+
+    <dimen name="lb_details_description_title_resized_text_size">32dp</dimen><!--TITLE-->
+    <dimen name="lb_details_description_subtitle_text_size">22dp</dimen><!--SUBTITLE-->
+    <dimen name="lb_details_description_body_text_size">18dp</dimen><!--DESCRIPTION-->
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="category_title">
+        <item>Фильмы</item>
+        <item>Сериалы</item>
+        <item>Люди</item>
+        <item>Настройки</item>
+    </array>
+</resources>

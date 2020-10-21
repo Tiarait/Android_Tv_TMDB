@@ -1,0 +1,52 @@
+<androidx.leanback.widget.NonOverlappingLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/header_icon"
+            android:scaleType="fitCenter"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:layout_marginStart="@dimen/lb_browse_item_horizontal_spacing"
+            android:id="@+id/header_label"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:textAllCaps="true"
+            android:textColor="@color/card_primary_text"
+            android:textSize="@dimen/lb_browse_header_text_size"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:alpha="0.7"
+        android:id="@+id/space"
+        android:visibility="gone"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <View
+            android:rotation="180"
+            android:background="@drawable/shadow_primary_white"
+            android:layout_width="64dp"
+            android:layout_height="1dp"/>
+        <View
+            android:background="@color/card_primary_text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="1dp"/>
+        <View
+            android:background="@drawable/shadow_primary_white"
+            android:layout_width="64dp"
+            android:layout_height="1dp"/>
+    </LinearLayout>
+</androidx.leanback.widget.NonOverlappingLinearLayout>
